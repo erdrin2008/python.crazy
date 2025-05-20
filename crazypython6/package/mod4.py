@@ -1,0 +1,1 @@
+from crazypython6.package.mod import def greet
