@@ -17,3 +17,4 @@ print(null_count)
 
 #removing duplicates
 df.drop_duplicates(keep="first", inplace=True)
+DF["Population - 2023"]=df["Population - 2023"].apply(lambda x: float(x.replace(",","")))
